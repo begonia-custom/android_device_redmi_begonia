@@ -52,6 +52,7 @@ ro.vendor.xiaomi.bl.poll=true
 ro.vendor.whitepoint_calibration_enable=false
 vendor.displayfeature.entry.enable=true
 vendor.displayfeature_hidl=true
+ro.config.avoid_gfx_accel=true
 
 # Graphics
 ro.opengles.version=196610
