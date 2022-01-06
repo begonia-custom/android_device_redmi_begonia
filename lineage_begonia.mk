@@ -22,6 +22,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
 $(call inherit-product, vendor/v4afx/config.mk)
+$(call inherit-product, vendor/dirac/config.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal

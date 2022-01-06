@@ -252,6 +252,7 @@ PRODUCT_PACKAGES += \
     partition_permission.sh \
     setup_MTK_In-Call_volume_adjust.sh \
     throttle.sh \
+    xiaomiparts.sh \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6785.rc \
@@ -260,6 +261,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_1_0.rc \
     init.ttl.rc \
+    init.xiaomi_parts.rc \
     fstab.mt6785 \
     fstab.mt6785_ramdisk \
     ueventd.mt6785.rc
@@ -402,6 +404,10 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Inherit vendor
 $(call inherit-product, vendor/redmi/begonia/begonia-vendor.mk)
