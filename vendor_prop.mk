@@ -20,6 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     debug.mediatek.disp_decompress=1 \
     debug.mediatek.game_pq_enable=1 \
     debug.mtk_tflite.target_nnapi=29 \
+    debug.renderengine.backend=skiaglthreaded \
     drm.service.enabled=true \
     media.stagefright.enable-aac=true \
     media.stagefright.enable-fma2dp=true \
