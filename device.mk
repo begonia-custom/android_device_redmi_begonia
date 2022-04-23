@@ -419,6 +419,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DDGbrowser
 
+# Simple Gallery
+PRODUCT_PACKAGES += \
+    SimpleGallery
+
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm64/arch-arm-armv8-a/shared/vndk-core/libmedia_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia_helper-v30.so \
